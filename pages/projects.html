@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murilo's Portfolio</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>
+            Murilo's Portfolio
+        </h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" class="menu-link"><i class="material-icons">home</i>Home</a></li>
+                <li><a href="../pages/about-me.html" class="menu-link"><i class="material-icons">person</i>About Me</a></li>
+                <li><a href="../pages/projects.html" class="menu-link"><i class="material-icons">computer</i>Projects</a></li>
+                <li><a href="../pages/contacts.html" class="menu-link"><i class="material-icons">chat</i>Contacts</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main id="main-projects">
+        <section id="section-iframe">
+           <iframe srcdoc="<h1>Press on the project you want to see, to put it here. All projects were developed in Portuguese, my first language.</h1>" name="frame" id="screen">
+                Not working
+            </iframe> 
+        </section>
+        <section id="section-projects">
+
+            <div>
+                <a href="https://murilomho.github.io/Projeto-Android/" id="a-projects" target="frame"><img src="../images/p-android.PNG" alt=""></a>
+                <p>
+                    Project Android
+                </p>
+            </div>
+
+            <div>
+                <a href="https://murilomho.github.io/Projeto-Cordel-Moderno/" id="a-projects" target="frame"><img src="../images/p-cordel.PNG" alt=""></a>
+                <p>
+                    Project Cordel Moderno
+                </p>
+            </div>
+
+            <div>
+                <a href="https://murilomho.github.io/Projeto-Social/
+                " id="a-projects" target="frame"><img src="../images/p-social.PNG" alt=""></a>
+                <p>
+                    Project Social
+                </p>
+            </div>
+
+            <div>
+                <a href="https://murilomho.github.io/projeto-login/" id="a-projects" target="frame"><img src="../images/p-login.PNG" alt=""></a>
+                <p>
+                    Project Login
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>

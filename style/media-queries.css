@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    header {
+        height: 92px;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+        border: 1px solid#45a29e;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    a.menu-link {
+        border: 0px;
+        margin: 0px 15px;
+        padding: 0px 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    a.menu-link:hover {
+        transform: translate(0px, -5px);
+        transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    section {
+        width: 768px;
+        padding-top: 40px;
+    }
+
+    iframe#screen {
+        width: calc(100% - 100px);
+        margin: auto;
+        display: block;
+        border: 2px solid #45a29e;
+    }
+
+    section#section-projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    section#section-projects > div {
+        width: 250px;
+    }
+
+    section#section-projects > div:hover {
+        transform: translateY(-15px) rotate(-5deg);
+        transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    section#section-projects img {
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        height: 95px;
+        position: fixed;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+        border: 1px solid#45a29e;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    a.menu-link {
+        border: 0px;
+        margin: 0px 15px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    a.menu-link:hover {
+        transform: translate(0px, -5px);
+        transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    section {
+        width: 768px;
+        padding-top: 40px;
+    }
+
+    iframe#screen {
+        width: calc(100% - 300px);
+        margin: auto;
+        display: block;
+        border: 2px solid #45a29e;
+    }
+
+    section#section-projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    section#section-projects > div {
+        width: 250px;
+    }
+
+    section#section-projects > div:hover {
+        transform: translate(0px, -25px) rotate(-3deg);
+        transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    section#section-projects img {
+        width: 250px;
+    }
+
+}

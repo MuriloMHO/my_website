@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murilo's Portfolio</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>
+            Murilo's Portfolio
+        </h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html" class="menu-link"><i class="material-icons">home</i>Home</a></li>
+                <li><a href="../pages/about-me.html" class="menu-link"><i class="material-icons">person</i>About Me</a></li>
+                <li><a href="../pages/projects.html" class="menu-link"><i class="material-icons">computer</i>Projects</a></li>
+                <li><a href="../pages/contacts.html" class="menu-link"><i class="material-icons">chat</i>Contacts</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <section>
+            <h1>
+                Contacts
+            </h1>
+            <div id="div-contacts">
+                <div>
+                    <a href="https://www.instagram.com/murilo._.mho/" target="_blank"><img src="../images/icons8-instagram-32.png" alt="" class="contacts">Istagram</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/murilo-machado-hoffman-de-oliveira-71667b301/" target="_blank"><img src="../images/icons8-linkedin-32.png" alt="" class="contacts">LinkedIn</a>
+                </div>
+                <div>
+                    <a href="https://github.com/MuriloMHO" target="_blank"><img src="../images/icons8-github-32.png" alt="" class="contacts">GitHub</a>
+                </div>
+                <div>
+                    <img src="../images/icons8-whatsapp-32 (1).png" alt="" class="contacts"><p class="contacts">07745 703342</p>
+                </div>
+                <div>
+                    <img src="../images/icons8-email-32.png" alt="" class="contacts"><p class="contacts">murilomholiveira@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
