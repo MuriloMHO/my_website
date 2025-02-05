@@ -15,7 +15,7 @@
         border: 1px solid#45a29e;
     }
 
-    ul {
+    ul#menu-ul {
         display: flex;
         justify-content: flex-start;
     }
@@ -83,7 +83,7 @@
         border: 1px solid#45a29e;
     }
 
-    ul {
+    ul#menu-ul {
         display: flex;
         justify-content: flex-start;
     }

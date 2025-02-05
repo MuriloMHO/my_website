@@ -56,7 +56,11 @@ menu#itens {
     display: none;
 }
 
-ul {
+li {
+    display: block;
+}
+
+ul#menu-ul {
     list-style-type: none;
 }
 
