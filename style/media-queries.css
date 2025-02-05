@@ -10,12 +10,13 @@
         display: none;
     }
 
-    menu#itens {
+    menu#items {
         display: block;
         border: 1px solid#45a29e;
     }
 
-    ul#menu-ul {
+    ul.menu-ul {
+        text-indent: 0px;
         display: flex;
         justify-content: flex-start;
     }
@@ -78,12 +79,13 @@
         display: none;
     }
 
-    menu#itens {
+    menu#items {
         display: block;
         border: 1px solid#45a29e;
     }
 
-    ul#menu-ul {
+    ul.menu-ul {
+        text-indent: 0px;
         display: flex;
         justify-content: flex-start;
     }

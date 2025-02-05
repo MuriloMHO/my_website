@@ -52,15 +52,22 @@ i#burguer:hover {
     background-color: #5e5e5e;
 }
 
-menu#itens {
+menu#items {
     display: none;
 }
 
-li {
-    display: block;
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
-ul#menu-ul {
+ul.menu-ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 0px;
     list-style-type: none;
 }
 
@@ -76,7 +83,7 @@ a.menu-link {
     padding: 3px;
 }
 
-a.menu-link:hover, menu#itens > i {
+a.menu-link:hover, menu#items > i {
     background-color: #5e5e5e;
 }
 
@@ -172,8 +179,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-indent: 20px;
+}
+
 p {
-    margin-top: 10px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
     text-indent: 20px;
 }
 
