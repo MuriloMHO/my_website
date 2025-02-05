@@ -99,10 +99,13 @@ Start Main
 
 main {
     background: #1f2833;
-    background-size: cover;
+    background-size: contain;
     width: 100vw;
-    height: 100vh;
     padding-top: 110px;
+}
+ 
+main.main-short {
+    height: 100vh;
 }
 
 main#main-projects {
@@ -125,6 +128,10 @@ section {
     border-radius: 10px 0px 10px 0px;
     border: 2px solid #45a29e;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section.section-about-me {
+    margin-bottom: 20px !important;
 }
 
 section#section-iframe {
