@@ -8,8 +8,8 @@
 
 .contacts {
     display: inline-block;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin: 0px;
+    padding: 0px;
 }
 
 .contacts__img {
