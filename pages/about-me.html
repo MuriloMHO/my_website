@@ -4,32 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murilo's Portfolio</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body onresize="mudouTamanho()">
 
-    <header>
-        <h1>
+    <header class="header">
+        <h1 class="header__h1">
             Murilo's Portfolio
         </h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="items">
-            <ul class="menu-ul">
-                <li><a href="https://murilomho.github.io/my_website" class="menu-link"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="../pages/about-me.html" class="menu-link"><i class="material-icons">person</i>About Me</a></li>
-                <li><a href="../pages/projects.html" class="menu-link"><i class="material-icons">computer</i>Projects</a></li>
-                <li><a href="../pages/contacts.html" class="menu-link"><i class="material-icons">chat</i>Contacts</a></li>
+            <ul class="menu__ul">
+                <li><a href="https://murilomho.github.io/my_website" class="menu__link"><i class="material-icons">home</i>Home</a></li>
+                <li><a href="../pages/about-me.html" class="menu__link"><i class="material-icons">person</i>About Me</a></li>
+                <li><a href="../pages/projects.html" class="menu__link"><i class="material-icons">computer</i>Projects</a></li>
+                <li><a href="../pages/contacts.html" class="menu__link"><i class="material-icons">chat</i>Contacts</a></li>
             </ul>
         </menu>
     </header>
 
-    <main>
-        <section id="section-about-me">
-            <h1>
-                About Me
-            </h1>
+    <main id="main-about">
+        <section id="section-about">
 
             <h2>
                 Who I am
@@ -42,9 +40,9 @@
                 Technologies
             </h2>
 
-            <ul>
+            <ul class="about__ul">
 
-                <li>
+                <li class="about__li">
                     HTML5 & CSS3
                 </li>
 
@@ -58,13 +56,13 @@
                 I’ve built several small projects, including:
             </p>
 
-            <ul>
+            <ul class="about__ul">
 
-                <li>
+                <li class="about__li">
                     <strong>Four HTML & CSS projects</strong> – Showcasing my front-end skills with structured layouts and responsive design.
                 </li>
 
-                <li>
+                <li class="about__li">
                     <strong>Python projects</strong> – A guess game, a simple Battleship game, and the iconic calculator, all improving my problem-solving and logic skills.
                 </li>
 
@@ -82,21 +80,21 @@
                 Right now, I’m focused on strengthening my Python skills while also expanding into full-stack development. My learning path includes:
             </p>
 
-            <ul>
+            <ul class="about__ul">
 
-                <li>
+                <li class="about__li">
                     <strong>Front-end:</strong> JavaScript, TypeScript, React
                 </li>
 
-                <li>
+                <li class="about__li">
                     <strong>Back-end:</strong> Node.js, PHP, MySQL, MongoDB, SQL
                 </li>
 
-                <li>
+                <li class="about__li">
                     <strong>Programming:</strong> Python, C++, C#, Java
                 </li>
 
-                <li>
+                <li class="about__li">
                     <strong>Frameworks & Tools:</strong> Tkinter, Pandas, NumPy
                 </li>
 

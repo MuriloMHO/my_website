@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murilo's Portfolio</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body onresize="mudouTamanho()">
 
-    <header>
-        <h1>
+    <header class="header">
+        <h1 class="header__h1">
             Murilo's Portfolio
         </h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="items">
-            <ul class="menu-ul">
-                <li><a href="https://murilomho.github.io/my_website" class="menu-link"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="../pages/about-me.html" class="menu-link"><i class="material-icons">person</i>About Me</a></li>
-                <li><a href="../pages/projects.html" class="menu-link"><i class="material-icons">computer</i>Projects</a></li>
-                <li><a href="../pages/contacts.html" class="menu-link"><i class="material-icons">chat</i>Contacts</a></li>
+            <ul class="menu__ul">
+                <li><a href="https://murilomho.github.io/my_website" class="menu__link"><i class="material-icons">home</i>Home</a></li>
+                <li><a href="../pages/about-me.html" class="menu__link"><i class="material-icons">person</i>About Me</a></li>
+                <li><a href="../pages/projects.html" class="menu__link"><i class="material-icons">computer</i>Projects</a></li>
+                <li><a href="../pages/contacts.html" class="menu__link"><i class="material-icons">chat</i>Contacts</a></li>
             </ul>
         </menu>
     </header>
@@ -34,30 +35,30 @@
         </section>
         <section id="section-projects">
 
-            <div>
-                <a href="../projects/android/" id="a-projects" target="frame"><img src="../images/p-android.PNG" alt=""></a>
-                <p>
+            <div class="projects__div">
+                <a href="../projects/android/" class="a-projects" target="frame"><img src="../images/p-android.PNG" alt="" class="projects__img"></a>
+                <p class="projects__p">
                     Project Android
                 </p>
             </div>
 
-            <div>
-                <a href="../projects/cordel_moderno/" id="a-projects" target="frame"><img src="../images/p-cordel.PNG" alt=""></a>
-                <p>
+            <div class="projects__div">
+                <a href="../projects/cordel_moderno/" id="a-projects" target="frame"><img src="../images/p-cordel.PNG" alt="" class="projects__img"></a>
+                <p class="projects__p">
                     Project Cordel Moderno
                 </p>
             </div>
 
-            <div>
-                <a href="../projects/social/" id="a-projects" target="frame"><img src="../images/p-social.PNG" alt=""></a>
-                <p>
+            <div class="projects__div">
+                <a href="../projects/social/" id="a-projects" target="frame"><img src="../images/p-social.PNG" alt="" class="projects__img"></a>
+                <p class="projects__p">
                     Project Social
                 </p>
             </div>
 
-            <div>
-                <a href="../projects/login/" id="a-projects" target="frame"><img src="../images/p-login.PNG" alt=""></a>
-                <p>
+            <div class="projects__div">
+                <a href="../projects/login/" id="a-projects" target="frame"><img src="../images/p-login.PNG" alt="" class="projects__img"></a>
+                <p class="projects__p">
                     Project Login
                 </p>
             </div>

@@ -1,0 +1,17 @@
+#main-contacts {
+    height: 100vh;
+}
+
+#div-contacts {
+    margin-top: 20px;
+}
+
+.contacts {
+    display: inline-block;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.contacts__img {
+    transform: translateY(10px);
+}

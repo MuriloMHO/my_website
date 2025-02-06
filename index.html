@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murilo's Portfolio</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body onresize="mudouTamanho()">
 
-    <header>
-        <h1>
+    <header class="header">
+        <h1 class="header__h1">
             Murilo's Portfolio
         </h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="items">
-            <ul class="menu-ul">
-                <li><a href="https://murilomho.github.io/my_website" class="menu-link"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="pages/about-me.html" class="menu-link"><i class="material-icons">person</i>About Me</a></li>
-                <li><a href="pages/projects.html" class="menu-link"><i class="material-icons">computer</i>Projects</a></li>
-                <li><a href="pages/contacts.html" class="menu-link"><i class="material-icons">chat</i>Contacts</a></li>
+            <ul class="menu__ul">
+                <li><a href="https://murilomho.github.io/my_website" class="menu__link"><i class="material-icons">home</i>Home</a></li>
+                <li><a href="pages/about-me.html" class="menu__link"><i class="material-icons">person</i>About Me</a></li>
+                <li><a href="pages/projects.html" class="menu__link"><i class="material-icons">computer</i>Projects</a></li>
+                <li><a href="pages/contacts.html" class="menu__link"><i class="material-icons">chat</i>Contacts</a></li>
             </ul>
         </menu>
     </header>
-    <main class="main-short">
+    <main id="main-home">
         <section>
             <h1>
                 Welcome to my Portfolio!
@@ -32,8 +33,8 @@
             <p>
                 Hi, I’m Murilo, a web developer passionate about building clean and user-friendly experiences. This site showcases my projects and journey in tech. Feel free to explore, and if you’d like to connect or collaborate, let’s chat!
             </p>
-            <div id="cv_div">
-                <a href="pdf/CV - Murilo M. H. de Oliveira.pdf" id="cv" target="_blank">Click here to download my CV</a>
+            <div id="cv">
+                <a href="pdf/CV - Murilo M. H. de Oliveira.pdf" id="cv__link" target="_blank">Click here to download my CV</a>
             </div>
         </section>
     </main>
