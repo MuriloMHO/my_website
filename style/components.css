@@ -17,6 +17,10 @@ body {
     color: var(--eletric-blue);
 }
 
+.header__h1:hover {
+    color: var(--teal);
+}
+
 #burguer {
     width: 100vw;
     background-color: var(--rich-black);
@@ -31,7 +35,7 @@ body {
 }
 
 #burguer:hover {
-    background-color: var(--silver-sand);
+    color: var(--teal);
 }
 
 #items {
@@ -46,26 +50,24 @@ body {
     list-style-type: none;
 }
 
-.menu__link { 
-    background-color: var(--rich-black);
+.menu__link {
     text-decoration: none;
     text-align: center;
     color: var(--eletric-blue);
     display: block;
     font-weight: bold;
     font-family: var(--heading-font);
-    border-bottom: 1px solid var(--eletric-blue);
-
-    padding: 3px;
+    padding: 0px 15px 7px 15px;
+    border-top: 1px solid var(--eletric-blue);
 }
 
 .menu__link:hover, #items > i {
-    background-color: var(--silver-sand);
+    color: var(--teal);
 }
 
 .menu__link > i {
-    transform: translateY(4px);
-    margin: 0px 5px;
+    transform: translateY(5px);
+    padding-right: 5px;
 }
 
 /*End Header Config*/
