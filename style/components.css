@@ -47,6 +47,7 @@
     color: #66fcf1;
     display: block;
     font-weight: bold;
+    font-family: var(--heading-font);
     border-bottom: 1px solid #45a29e;
 
     padding: 3px;
