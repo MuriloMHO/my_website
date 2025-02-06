@@ -1,3 +1,7 @@
+body {
+    background-color: var(--gunmetal);
+}
+
 .header {
     background-color: var(--rich-black);
     width: 100vw;

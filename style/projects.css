@@ -1,7 +1,5 @@
 #main-projects {
-    background-size: cover;
-    height: 100%;
-    padding-bottom: 20px;
+    height: auto;
 }
 
 /*End Main Confid*/
@@ -17,7 +15,7 @@
 #section-projects {
     background-color: var(--rich-black);
     width: 95%;
-    height: 100%;
+    height: auto;
     border-radius: 0px 0px 10px 10px;
     border-top: 0px;
 }
