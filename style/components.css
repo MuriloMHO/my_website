@@ -100,11 +100,11 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     text-indent: 20px;
+    padding: 20px 0px 20px 0px;
 }
 
 p {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+    padding: 7px 0px 7px 0px;
     text-indent: 20px;
 }
 
