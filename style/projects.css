@@ -4,7 +4,7 @@
     padding-bottom: 20px;
 }
 
-/*End Main Congid*/
+/*End Main Confid*/
 
 #section-iframe {
     background-color: var(--rich-black);
@@ -55,6 +55,6 @@
 #screen {
     width: 100%;
     height: 500px;
-    border: 1px solid #45a29e;
+    border: 1px solid var(--teal);
     background-color: rgba(255, 255, 255, 0.99);
 }

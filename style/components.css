@@ -1,5 +1,5 @@
 .header {
-    background-color: #0b0c10;
+    background-color: var(--rich-black);
     width: 100vw;
     height: 83px;
     position: fixed;
@@ -41,20 +41,20 @@
 }
 
 .menu__link { 
-    background-color: #0b0c10;
+    background-color: var(--rich-black);
     text-decoration: none;
     text-align: center;
-    color: #66fcf1;
+    color: var(--eletric-blue);
     display: block;
     font-weight: bold;
     font-family: var(--heading-font);
-    border-bottom: 1px solid #45a29e;
+    border-bottom: 1px solid var(--teal);
 
     padding: 3px;
 }
 
 .menu__link:hover, #items > i {
-    background-color: #5e5e5e;
+    background-color: var(--silver-sand);
 }
 
 .menu__link > i {
@@ -80,7 +80,7 @@ section {
     width: 80%;
     height: auto;
     border-radius: 10px 0px 10px 0px;
-    border: 2px solid #45a29e;
+    border: 2px solid var(--teal);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -113,5 +113,5 @@ div > p, div > a {
 }
 
 div > a:hover {
-    color: #45a29e;
+    color: var(--teal);
 }
