@@ -5,8 +5,10 @@ body {
 .header {
     background-color: var(--rich-black);
     width: 100vw;
-    height: 83px;
-    position: fixed;
+    height: auto;
+    position: sticky;
+    top: 0px;
+    border: 1px solid var(--eletric-blue);
 }
 
 .header__h1 {
@@ -16,17 +18,16 @@ body {
 }
 
 #burguer {
-    width: 100%;
+    width: 100vw;
     background-color: var(--rich-black);
     text-decoration: none;
     text-align: center;
     color: var(--eletric-blue);
     display: block;
     font-weight: bold;
-    border-top: 1px solid var(--teal);
-    border-bottom: 1px solid var(--teal);
     padding: 5px;
     cursor: pointer;
+    border-top: 1px solid var(--eletric-blue);
 }
 
 #burguer:hover {
@@ -35,6 +36,7 @@ body {
 
 #items {
     display: none;
+    border-top: 1px solid var(--eletric-blue);
 }
 
 .menu__ul {
@@ -52,7 +54,7 @@ body {
     display: block;
     font-weight: bold;
     font-family: var(--heading-font);
-    border-bottom: 1px solid var(--teal);
+    border-bottom: 1px solid var(--eletric-blue);
 
     padding: 3px;
 }
@@ -72,7 +74,7 @@ main {
     background: var(--gunmetal);
     height: auto;
     width: 100vw;
-    padding: 110px 0px 5px 0px;
+    padding: 25px 0px 25px 0px;
 }
 
 /*End Main Config*/
@@ -81,10 +83,10 @@ section {
     background-color: white;
     margin: auto;
     padding: 10px;
-    width: 80%;
+    width: 80vw;
     height: auto;
     border-radius: 10px 0px 10px 0px;
-    border: 2px solid var(--teal);
+    border: 2px solid var(--eletric-blue);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
