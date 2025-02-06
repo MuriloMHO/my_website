@@ -22,14 +22,12 @@ body {
 }
 
 #burguer {
-    width: 100vw;
-    background-color: var(--rich-black);
     text-decoration: none;
     text-align: center;
     color: var(--eletric-blue);
     display: block;
     font-weight: bold;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
     cursor: pointer;
     border-top: 1px solid var(--eletric-blue);
 }
