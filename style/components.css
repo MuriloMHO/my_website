@@ -160,16 +160,6 @@ footer {
     color: var(--eletric-blue);
 }
 
-#copyright {
-    align-self: center;
-
-    padding: 15px 10px 10px 10px;
-
-    color: #f5f5f5;
-
-    font-size: var(--normal_font);
-}
-
 /* Components */
 
 a {
