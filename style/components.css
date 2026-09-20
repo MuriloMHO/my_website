@@ -156,6 +156,10 @@ footer {
     margin-top: 4px;
 }
 
+#contact a {
+    border-bottom: 1px solid var(--eletric-blue);
+}
+
 #contact a:hover {
     color: var(--eletric-blue);
 }
