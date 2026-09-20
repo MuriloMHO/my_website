@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murilo's Portfolio</title>
     <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body onresize="mudouTamanho()">
+<body>
+    <section id="menu-overlay">
+        <ul id="menu">
+                <li><a href="index.html"><i class="material-icons">home</i></a><a href="index.html">Home</a></li>
+                <li><a href="about.html"><i class="material-icons">person</i></a><a href="about.html">About</a></li>
+                <li><a href="projects.html"><i class="material-icons">computer</i></a><a href="projects.html">Projects</a></li>
+        </ul>
+    </section>
 
-    <header class="header">
-        <a href="https://murilomho.github.io/my_website">
-            <h1 class="header__h1">
-                Murilo's Portfolio
-            </h1>
-        </a>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="items">
-            <ul class="menu__ul">
-                <li><a href="https://murilomho.github.io/my_website" class="menu__link"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="pages/about-me.html" class="menu__link"><i class="material-icons">person</i>About Me</a></li>
-                <!--<li><a href="pages/projects.html" class="menu__link"><i class="material-icons">computer</i>Projects</a></li>-->
-                <li><a href="pages/contacts.html" class="menu__link"><i class="material-icons">chat</i>Contacts</a></li>
-            </ul>
-        </menu>
+    <header>
+        <nav id="navbar">
+            <a href="index.html" id="logo">Murilo's Portfolio</a>
+
+            <p id="menu-button" onclick="clickMenu()">☰</p>
+
+            <section id="pc-links">
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+            </section>
+
+        </nav>
     </header>
-    <main id="main-home">
-        <section>
-            <h2 class="home__h2">
-                Welcome to my Portfolio!
-            </h2>
-            <p>
-                Hi, I’m Murilo, a "web developer" passionate about building clean and user-friendly experiences. This site showcases my projects (Projects section is in the process of being re-evaluated) and journey in tech. Feel free to explore, and if you’d like to connect or collaborate, let’s chat!
-            </p>
-            <div id="cv">
-                <a href="pdf/CV - Murilo M. H. de Oliveira.pdf" id="cv__link" target="_blank">Click here to download my CV</a>
-            </div>
-        </section>
-    </main>
+    <main>
 
-    <script src="script/script.js"></script>
-    
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: murilomholiveira@gmail.com</p>
+            <p>GitHub: <a href="#" target="_blank">GitHub Profile</a></p>
+            <p>Instagram: <a href="#" target="_blank">Instagram Profile</a></p>
+        </section>
+
+        <p id="copyright">&copy; 2023 Murilo's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/menu-button.js"></script>
 </body>
 </html>
