@@ -9,13 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="menu-overlay">
+    <menu id="menu-overlay">
         <ul id="menu">
-                <li><a href="index.html"><i class="material-icons">home</i></a><a href="index.html">Home</a></li>
-                <li><a href="about.html"><i class="material-icons">person</i></a><a href="about.html">About</a></li>
-                <li><a href="projects.html"><i class="material-icons">computer</i></a><a href="projects.html">Projects</a></li>
+                <a href="index.html">
+                    <li><i class="material-icons">home</i>Home</li>
+                </a>
+                <a href="assets/about.html">
+                    <li><i class="material-icons">person</i>About Me</li>
+                </a>
+                <li id="projects-button" onclick="clickProjectsMenu()"><i class="material-icons">computer</i>Projects<p id="projects-button-indicator">▼</p></li>
+                <menu id="projects-menu">
+                    <a href="projects.html" target="_blank">All Projects</a>
+                    <a href="https://murilomho.github.io/hot_beans_web/" target="_blank">Hot Beans Web</a>
+                </menu>
         </ul>
-    </section>
+    </menu>
 
     <header>
         <nav id="navbar">
@@ -37,8 +45,8 @@
         <section id="contact">
             <h2>Contacts</h2>
             <p>Email: murilomholiveira@gmail.com</p>
-            <p>GitHub: <a href="#" target="_blank">GitHub Profile</a></p>
-            <p>Instagram: <a href="#" target="_blank">Instagram Profile</a></p>
+            <p>GitHub: <a href="https://github.com/MuriloMHO" target="_blank">MuriloMHO</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/murilo._.mho/" target="_blank">murilo._.mho</a></p>
         </section>
 
         <p id="copyright">&copy; 2023 Murilo's Portfolio. All rights reserved.</p>

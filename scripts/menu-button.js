@@ -17,3 +17,16 @@ let clickMenu = function() {
         nav.style.position = 'static';
     }
 };
+
+clickProjectsMenu = function() {
+    const projectsMenu = document.querySelector("#projects-menu");
+    const projectsButton = document.querySelector("#projects-button-indicator");
+
+    if (projectsMenu.style.display === 'none' || projectsMenu.style.display === "") {
+        projectsMenu.style.display = 'block';
+        projectsButton.innerHTML = "▲";
+    } else {
+        projectsMenu.style.display = 'none';
+        projectsButton.innerHTML = "▼";
+    }
+};

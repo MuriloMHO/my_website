@@ -23,34 +23,55 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding: 5px 20px 20px 20px;
+    padding: 4px 20px 20px 20px;
 }
 
 #menu li {
     display: flex;
     align-items: center;
-    padding: 5px 0px 5px 0px;
+    padding: 4px 0px 4px 0px;
 
     border-bottom: 1px solid var(--eletric-blue);
 }
 
-#menu li a {
-    display: flex;
-    align-items: center;
-}
-
-#menu li a i {
+#menu li i {
     color: var(--eletric-blue);
     font-size: var(--normal_font);
+
+    padding-right: 12px;
 }
 
-#menu a {
+#menu a, #menu li {
     color: var(--eletric-blue);
     font-size: var(--normal_font);
     font-family: var(--heading-font);
     font-weight: bold;
+}
 
-    padding-right: 10px;
+menu a:hover, #menu li:hover {
+    opacity: 0.5;
+}
+
+#projects-menu {
+    display: none;
+}
+
+#projects-menu a {
+    display: flex;
+    flex-direction: column;
+
+    padding: 4px 0px;
+    margin-left: 40px;
+
+    border-bottom: 1px solid var(--eletric-blue);
+}
+
+#projects-menu a:hover {
+    opacity: 0.5;
+}
+
+#projects-button-indicator {
+    margin-left: 4px;
 }
 
 nav {
@@ -61,7 +82,7 @@ nav {
 
     height: fit-content;
     width: 100%;
-    padding: 10px 20px;
+    padding: 12px 20px;
 }
 
 #logo {
@@ -113,7 +134,7 @@ footer {
     
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 12px;
 }
 
 #contact p, #contact h2, #contact p > a {
@@ -124,11 +145,19 @@ footer {
 }
 
 #contact h2 {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 
     font-size: var(--header);
     font-family: var(--heading-font);
     font-weight: bold;
+}
+
+#contact p {
+    margin-top: 4px;
+}
+
+#contact a:hover {
+    color: var(--eletric-blue);
 }
 
 #copyright {
